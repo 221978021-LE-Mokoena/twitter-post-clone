@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f8fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.tweet {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet-info {
+  flex: 1;
+}
+
+.username {
+  font-weight: bold;
+  display: block;
+}
+
+.handle {
+  color: #657786;
+  font-size: 0.9em;
+}
+
+.options-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.tweet-content {
+  margin-bottom: 10px;
+}
+
+.tweet-footer {
+  color: #657786;
+  font-size: 0.9em;
+}
+.tweet-time, .tweet-stats {
+  margin-bottom: 10px;
+}
+.action-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.tweet-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-top: 10px;
+}
+
+.action-button {
+  background: none; 
+  border: none; 
+  padding: 5px;
+  cursor: pointer; 
+}
+
+.action-icon {
+  width: 24px; 
+  height: 24px;
+  vertical-align: middle; 
+}
+
+.action-text {
+  margin-left: 5px; 
+}
+.tweet-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.action-button {
+  background: none; 
+  border: none;
+  padding: 5px; 
+  cursor: pointer; 
+}
+
+.action-icon {
+  width: 30px; 
+  height: 30px; 
+  vertical-align: middle;
+}
+
+.action-text {
+  margin-left: 8px; 
+}
+.tweet-actions {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 10px;
+}
+
+.action-button {
+  background: none; 
+  border: none; 
+  padding: 5px; 
+  cursor: pointer; 
+}
+
+.action-icon {
+  width: 30px; 
+  height: 30px; 
+  vertical-align: middle; 
+}
+
+.action-text {
+  margin-left: 8px; 
+}
+.tweet-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.action-button {
+  background: none; 
+  border: none;
+  padding: 5px; 
+  cursor: pointer;
+}
+
+.action-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.action-text {
+  margin-left: 8px; 
+}
